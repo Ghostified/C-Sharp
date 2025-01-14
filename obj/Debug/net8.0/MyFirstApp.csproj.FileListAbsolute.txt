@@ -1,0 +1,14 @@
+/home/ghost/Projects/C_Sharp/MyFirstApp/bin/Debug/net8.0/MyFirstApp
+/home/ghost/Projects/C_Sharp/MyFirstApp/bin/Debug/net8.0/MyFirstApp.deps.json
+/home/ghost/Projects/C_Sharp/MyFirstApp/bin/Debug/net8.0/MyFirstApp.runtimeconfig.json
+/home/ghost/Projects/C_Sharp/MyFirstApp/bin/Debug/net8.0/MyFirstApp.dll
+/home/ghost/Projects/C_Sharp/MyFirstApp/bin/Debug/net8.0/MyFirstApp.pdb
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfoInputs.cache
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.AssemblyInfo.cs
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.dll
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/refint/MyFirstApp.dll
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
