@@ -12,3 +12,4 @@
 /home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.pdb
 /home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.genruntimeconfig.cache
 /home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/ref/MyFirstApp.dll
+/home/ghost/Projects/C_Sharp/MyFirstApp/obj/Debug/net8.0/MyFirstApp.sourcelink.json

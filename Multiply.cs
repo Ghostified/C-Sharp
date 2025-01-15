@@ -1,5 +1,7 @@
  using System;
+using System.Diagnostics.Contracts;
 using System.Runtime.ConstrainedExecution;
+using System.Text.Json;
 // class Multiply {
 
 //   static void Main (String [] Args) {
@@ -44,7 +46,14 @@ class Multiply
     //NestedLoop();
 
     //while Loops
-    WhileLoops();
+    //WhileLoops();
+
+   //Type casting
+   //CelciusConverter();
+
+   Grader();
+  
+
   }
 
   static void Multiplication (){
@@ -184,5 +193,76 @@ class Multiply
     Console.WriteLine("What is the value of " + num1 + " X "  + num2);
     int guess = Convert.ToInt32(Console.ReadLine());
    }
+
+  static void CelciusConverter(){
+
+    
+    Console.WriteLine("Enter the temprature in fahrenheit");
+    decimal input = Convert.ToDecimal(Console.ReadLine());
+    decimal calculate = (input - 32) * ((decimal)5/(decimal)9);
+    Console.WriteLine(calculate); 
+
+
+  }
+
+  static void Grader(){
+
+    int currentAssignments = 5; 
+
+    int sophia1 = 93;
+    int sophia2 = 87;
+    int sophis3 = 98;
+    int sophia4 = 95;
+    int sophia5 = 100;
+
+    int nico1 = 80;
+    int nico2 = 83;
+    int nico3 = 82;
+    int nico4 = 88;
+    int nico5 = 85;
+
+    int zahi1 = 84;
+    int zahi2 = 96;
+    int zahi3 = 73;
+    int zahi4 = 85;
+    int zahi5 = 79;
+
+    int jeo1 = 90;
+    int jeo2 = 92;
+    int jeo3 = 98;
+    int jeo4 = 100;
+    int jeo5 = 97;
+
+
+    int sofiasum = 0;
+    int nicosum = 0;
+    int zahisum =0;
+    int jeosum = 0;
+
+    sofiasum = sophia1 + sophia2 + sophis3 + sophia4 + sophia5;
+    nicosum = nico1 + nico2 + nico3 + nico4 + nico5;
+    zahisum = zahi1 + zahi2 + zahi3 + zahi4 + zahi5;
+    jeosum = jeo1 + jeo2 + jeo3 + jeo4 + jeo5;
+
+    Console.WriteLine("Sophia: " + sofiasum);
+    Console.WriteLine("Nico: " + nicosum);
+    Console.WriteLine("Zahi: " + zahisum);
+    Console.WriteLine("Jeo: " + jeosum);
+
+    decimal sophiaScore = (decimal)sofiasum / currentAssignments;
+    decimal nicoScore = (decimal)nicosum / currentAssignments;
+    decimal zahiscore = (decimal)zahisum / currentAssignments;
+    decimal jeoScore = (decimal)jeosum / currentAssignments;
+
+    Console.WriteLine("Studet\t\t\t\tGrades \n");
+
+    Console.WriteLine("The score for sofia:\t\t" + sophiaScore + "\tA");
+    Console.WriteLine("The score for Nico:\t\t" + nicoScore  + "\tB");
+    Console.WriteLine("The score for Zahi:\t\t" + zahiscore + "\tB");
+    Console.WriteLine("The score for Jeo:\t\t" + jeoScore + "\tA"); 
+
+
+
+  }
 }
 
